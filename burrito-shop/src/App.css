@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
 
 .App {
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;;
+  align-items: center;
   font-family: "Comfortaa";
 }
 
-.heading{
+.heading {
   font-size: 3;
   margin: 10px;
   color: black;
@@ -17,23 +17,23 @@
   text-align: center;
 }
 
-.nav{
+.nav {
   font-family: "Comfortaa";
   background-color: #ffffff;
   box-shadow: 0 0 10px #b7b7b7;
 }
 
-.cart{
+.cart {
   font-family: "Comfortaa";
   background-color: #ffffff;
 }
 
-.cart-heading{
+.cart-heading {
   font-family: "Comfortaa";
-  font-size: 50px
+  font-size: 50px;
 }
 
-.button{
+.button {
   background-color: #45a049;
   color: white;
   padding: 5px 10px;
@@ -43,14 +43,14 @@
   font-family: "Comfortaa";
 }
 
-.order-button{
+.order-button {
   background-color: #45a049;
   color: white;
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-family: "Comfortaa"
+  font-family: "Comfortaa";
 }
 
 .order-button:hover {
@@ -81,7 +81,7 @@
   border-radius: 8px;
   margin-top: 20px;
   cursor: pointer;
-  font-family: "Comfortaa"
+  font-family: "Comfortaa";
 }
 
 .popup button:hover {
@@ -126,10 +126,9 @@
   color: white;
 }
 
-@media (max-width: 800px){
-  .heading{
+@media (max-width: 800px) {
+  .heading {
     margin: 15px 0;
     font-size: 35px;
   }
-
 }
